@@ -70,6 +70,10 @@ header img {
     margin-right: 484.5px;
 }
 
+.text-sec p {
+    padding-bottom: 18px;
+}
+
 .cta-text {
     background-color: #0A22F4;
     width: 341px;

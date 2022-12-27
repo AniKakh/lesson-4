@@ -20,7 +20,37 @@ header {
     height: 600px;
 }
 
+
 .sec-1 h1 {
     letter-spacing: 1px;
     text-align: left;
+}
+
+.card-imgs {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.card-imgs img {
+   padding: 25px; 
+}
+
+.text-sec {
+    font-size: 16px;
+}
+
+.cta-text {
+    background-color: #0A22F4;
+    width: 341px;
+    height: 28px;
+    border-radius: 28px;
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    margin-top: 60px;
+}
+
+.cta-text a {
+    text-decoration: none;
+    color: #ffffff;   
 }

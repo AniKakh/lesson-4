@@ -15,6 +15,7 @@ ul {
 
 header {
     background-color: #0020F4;
+    height: 387.56px;
 }
 
 header img {
@@ -22,11 +23,30 @@ header img {
     padding-top: 40px;
 }
 
+.header-div{
+   width: 1475px;
+   height: 91px;
+   margin-left: auto;
+   margin-right: auto;
+}
 
 .header-div a {
     color: white;
     font-size: 18px;
    
+}
+
+nav, nav ul {
+    display: inline-block;
+}
+
+nav li {
+    display: inline-block;
+    width: 120px;
+}
+
+.logo-a, .header-div {
+    vertical-align: middle;
 }
 
 .contact {
@@ -35,8 +55,11 @@ header img {
     border-radius: 8px;
 }
 
+
 .sec-1 {
-    margin-left: 362px;
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .sec-1 img {
@@ -56,18 +79,26 @@ header img {
 .card-imgs {
     margin-top: 60px;
     margin-bottom: 60px;
-    margin-left: 362px;
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .card-imgs img {
-   padding-right: 25px; 
+    padding-right: 25px;
+  display: inline-block;
 }
 
 .text-sec {
     font-size: 16px;
     margin-bottom: 180px;
-    margin-left: 484.5px;
-    margin-right: 484.5px;
+    
+}
+
+.textSec-div{
+    width: 951px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .text-sec p {
@@ -83,7 +114,8 @@ header img {
     padding-top: 18px;
     padding-bottom: 18px;
     margin-top: 60px;
-    margin-right: 790px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .cta-text a {
@@ -92,10 +124,69 @@ header img {
 }
 
 footer {
-    background-color: #0A22F4;    
+    background-color: #0A22F4;  
+
 }
 
-footer p {
+
+.contact-wrapper {
+    display: inline-block;
+    width: 463px;
+    margin-left: 240px;
+    margin-top: 275px;
+}
+
+.contact-wrapper h4 {
+    color: #ffffff;
+    font-size: 32px;
+   font-weight: bold;
+   padding-bottom: 30px;
+}
+
+.contact-wrapper p {
     color: #ffffff;
     font-size: 16px;
+    padding-bottom: 58px;
+}
+
+iframe {
+    height: 197px;
+    border-radius: 15px;
+}
+
+.contact-info {
+    display: inline-block;
+    padding-top: 70px;
+}
+
+.contNumber, .contEmail {
+    display: inline-block;
+}
+
+.contNumber img, .contEmail img {
+    background-image: url("images/Rectangle\ 64.png");
+    background-size: contain;
+    display: inline-block;
+    
+}
+
+.contNumber p, .contEmail p {
+    display: inline-block;
+    font-size: 22px;
+}
+
+.rightWrapper {
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+.rightWrapper p {
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.rightWrapper p, .rightWrapper img {
+   display: inline-block;
 }
